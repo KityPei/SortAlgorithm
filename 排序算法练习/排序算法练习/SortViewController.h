@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SortViewController : UIViewController
+@interface SortViewController : UIViewController<UITextFieldDelegate>
 
 @end

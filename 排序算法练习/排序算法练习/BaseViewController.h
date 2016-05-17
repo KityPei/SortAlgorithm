@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SortViewController.h"
 @interface BaseViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end

@@ -14,6 +14,11 @@
 		4B17BE7B1CEAF323006E7BD9 /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE7A1CEAF323006E7BD9 /* ______Tests.m */; };
 		4B17BE881CEAF5F9006E7BD9 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE871CEAF5F9006E7BD9 /* BaseViewController.m */; };
 		4B17BE8B1CEAFADE006E7BD9 /* SortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE8A1CEAFADE006E7BD9 /* SortViewController.m */; };
+		4B17BE981CEB0E4C006E7BD9 /* MLInputDodger.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4B17BE8F1CEB0E4C006E7BD9 /* MLInputDodger.bundle */; };
+		4B17BE991CEB0E4C006E7BD9 /* MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE911CEB0E4C006E7BD9 /* MLInputDodger.m */; };
+		4B17BE9A1CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE931CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m */; };
+		4B17BE9B1CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE951CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m */; };
+		4B17BE9C1CEB0E4C006E7BD9 /* UIView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE971CEB0E4C006E7BD9 /* UIView+MLInputDodger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,15 @@
 		4B17BE871CEAF5F9006E7BD9 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		4B17BE891CEAFADE006E7BD9 /* SortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortViewController.h; sourceTree = "<group>"; };
 		4B17BE8A1CEAFADE006E7BD9 /* SortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortViewController.m; sourceTree = "<group>"; };
+		4B17BE8F1CEB0E4C006E7BD9 /* MLInputDodger.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MLInputDodger.bundle; sourceTree = "<group>"; };
+		4B17BE901CEB0E4C006E7BD9 /* MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLInputDodger.h; sourceTree = "<group>"; };
+		4B17BE911CEB0E4C006E7BD9 /* MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLInputDodger.m; sourceTree = "<group>"; };
+		4B17BE921CEB0E4C006E7BD9 /* MLInputDodgerRetractView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLInputDodgerRetractView.h; sourceTree = "<group>"; };
+		4B17BE931CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLInputDodgerRetractView.m; sourceTree = "<group>"; };
+		4B17BE941CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MLInputDodger.h"; sourceTree = "<group>"; };
+		4B17BE951CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLInputDodger.m"; sourceTree = "<group>"; };
+		4B17BE961CEB0E4C006E7BD9 /* UIView+MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLInputDodger.h"; sourceTree = "<group>"; };
+		4B17BE971CEB0E4C006E7BD9 /* UIView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLInputDodger.m"; sourceTree = "<group>"; };
 		762BFAC109EED4A8D11AB5DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C7D2732B68ED94B9C7B61E03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED050EB9DE3644234B607D93 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +117,8 @@
 				4B17BE871CEAF5F9006E7BD9 /* BaseViewController.m */,
 				4B17BE891CEAFADE006E7BD9 /* SortViewController.h */,
 				4B17BE8A1CEAFADE006E7BD9 /* SortViewController.m */,
+				4B17BE8D1CEB0E39006E7BD9 /* Untils */,
+				4B17BE8C1CEB0E04006E7BD9 /* Thrid */,
 				4B17BE6C1CEAF323006E7BD9 /* Assets.xcassets */,
 				4B17BE711CEAF323006E7BD9 /* Info.plist */,
 				4B17BE601CEAF323006E7BD9 /* Supporting Files */,
@@ -126,6 +142,37 @@
 				4B17BE7C1CEAF323006E7BD9 /* Info.plist */,
 			);
 			path = "排序算法练习Tests";
+			sourceTree = "<group>";
+		};
+		4B17BE8C1CEB0E04006E7BD9 /* Thrid */ = {
+			isa = PBXGroup;
+			children = (
+				4B17BE8E1CEB0E4C006E7BD9 /* MLInputDodger */,
+			);
+			path = Thrid;
+			sourceTree = "<group>";
+		};
+		4B17BE8D1CEB0E39006E7BD9 /* Untils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Untils;
+			sourceTree = "<group>";
+		};
+		4B17BE8E1CEB0E4C006E7BD9 /* MLInputDodger */ = {
+			isa = PBXGroup;
+			children = (
+				4B17BE8F1CEB0E4C006E7BD9 /* MLInputDodger.bundle */,
+				4B17BE901CEB0E4C006E7BD9 /* MLInputDodger.h */,
+				4B17BE911CEB0E4C006E7BD9 /* MLInputDodger.m */,
+				4B17BE921CEB0E4C006E7BD9 /* MLInputDodgerRetractView.h */,
+				4B17BE931CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m */,
+				4B17BE941CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.h */,
+				4B17BE951CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m */,
+				4B17BE961CEB0E4C006E7BD9 /* UIView+MLInputDodger.h */,
+				4B17BE971CEB0E4C006E7BD9 /* UIView+MLInputDodger.m */,
+			);
+			path = MLInputDodger;
 			sourceTree = "<group>";
 		};
 		BFB44042ADBADC639AF24760 /* Frameworks */ = {
@@ -219,6 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B17BE981CEB0E4C006E7BD9 /* MLInputDodger.bundle in Resources */,
 				4B17BE6D1CEAF323006E7BD9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +336,11 @@
 				4B17BE651CEAF323006E7BD9 /* AppDelegate.m in Sources */,
 				4B17BE881CEAF5F9006E7BD9 /* BaseViewController.m in Sources */,
 				4B17BE8B1CEAFADE006E7BD9 /* SortViewController.m in Sources */,
+				4B17BE9C1CEB0E4C006E7BD9 /* UIView+MLInputDodger.m in Sources */,
 				4B17BE621CEAF323006E7BD9 /* main.m in Sources */,
+				4B17BE991CEB0E4C006E7BD9 /* MLInputDodger.m in Sources */,
+				4B17BE9B1CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m in Sources */,
+				4B17BE9A1CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

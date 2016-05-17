@@ -69,6 +69,11 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    SortViewController *VC = [[SortViewController alloc] init];
+    VC.title = [arrayData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:VC animated:YES];
+    
 }
 
 - (void)didReceiveMemoryWarning {
