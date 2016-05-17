@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseViewController.h
 //  排序算法练习
 //
 //  Created by Kity on 16/5/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BaseViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end
-
