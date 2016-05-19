@@ -19,6 +19,7 @@
 		4B17BE9A1CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE931CEB0E4C006E7BD9 /* MLInputDodgerRetractView.m */; };
 		4B17BE9B1CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE951CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m */; };
 		4B17BE9C1CEB0E4C006E7BD9 /* UIView+MLInputDodger.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B17BE971CEB0E4C006E7BD9 /* UIView+MLInputDodger.m */; };
+		4B777A481CEDEEF400BF92C1 /* PPSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B777A471CEDEEF400BF92C1 /* PPSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		4B17BE951CEB0E4C006E7BD9 /* UIScrollView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MLInputDodger.m"; sourceTree = "<group>"; };
 		4B17BE961CEB0E4C006E7BD9 /* UIView+MLInputDodger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MLInputDodger.h"; sourceTree = "<group>"; };
 		4B17BE971CEB0E4C006E7BD9 /* UIView+MLInputDodger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MLInputDodger.m"; sourceTree = "<group>"; };
+		4B777A461CEDEEF400BF92C1 /* PPSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSort.h; sourceTree = "<group>"; };
+		4B777A471CEDEEF400BF92C1 /* PPSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSort.m; sourceTree = "<group>"; };
 		762BFAC109EED4A8D11AB5DD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		C7D2732B68ED94B9C7B61E03 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED050EB9DE3644234B607D93 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 		4B17BE8D1CEB0E39006E7BD9 /* Untils */ = {
 			isa = PBXGroup;
 			children = (
+				4B777A461CEDEEF400BF92C1 /* PPSort.h */,
+				4B777A471CEDEEF400BF92C1 /* PPSort.m */,
 			);
 			path = Untils;
 			sourceTree = "<group>";
@@ -336,6 +341,7 @@
 				4B17BE651CEAF323006E7BD9 /* AppDelegate.m in Sources */,
 				4B17BE881CEAF5F9006E7BD9 /* BaseViewController.m in Sources */,
 				4B17BE8B1CEAFADE006E7BD9 /* SortViewController.m in Sources */,
+				4B777A481CEDEEF400BF92C1 /* PPSort.m in Sources */,
 				4B17BE9C1CEB0E4C006E7BD9 /* UIView+MLInputDodger.m in Sources */,
 				4B17BE621CEAF323006E7BD9 /* main.m in Sources */,
 				4B17BE991CEB0E4C006E7BD9 /* MLInputDodger.m in Sources */,

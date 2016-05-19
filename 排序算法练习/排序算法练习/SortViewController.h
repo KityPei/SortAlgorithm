@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "PPSort.h"
 @interface SortViewController : UIViewController<UITextFieldDelegate>
-
+{
+    UILabel *outputLabel;
+    UILabel *inputLabel;
+    UITextField *InputText;
+}
 @end

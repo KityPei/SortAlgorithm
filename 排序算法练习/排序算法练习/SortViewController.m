@@ -9,11 +9,7 @@
 #import "SortViewController.h"
 
 @interface SortViewController ()
-{
-    UILabel *outputLabel;
-    UILabel *inputLabel;
-    UITextField *InputText;
-}
+
 @end
 
 @implementation SortViewController
@@ -80,6 +76,18 @@
         make.left.mas_equalTo(10);
         make.top.equalTo(inputLabel.mas_bottom).offset(10);
     }];
+}
+
+- (void)textFieldDidEndEditing:(UITextField *)textField
+{
+    //开始转换把textfield的内容
+    /**
+     *  1.
+     *  2.
+     *  3.
+     *  4.
+     *  5.
+     */
 }
 
 - (void)didReceiveMemoryWarning {
